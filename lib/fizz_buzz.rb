@@ -11,7 +11,7 @@ def fizz_buzz(number)
     number = Integer(gets) rescue nil
   end
 
-while number > 0 do   
+while number > 0 do
     if number % 5 == 0 and number % 3 == 0
         puts 'fizzbuzz'
       elsif number % 3 == 0
